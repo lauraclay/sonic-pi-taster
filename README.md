@@ -2,7 +2,7 @@
 
 We are going to make some funky songs on the Raspberry Pi. A Raspberry Pi is a small computer that we can use to create exciting technology. It was created in the UK by the Raspberry Pi Foundation to help young people like you learn how to code.
 
-This small computer features amazing HD (high-definition) quality video and playback, sports high quality audio and has the ability to play 3D games.
+This small computer features amazing HD (high-definition) quality video and playback, sports high quality audio, and has the ability to play 3D games.
 
 To get going with your Raspberry Pi, you will need to connect cables and add an SD card before logging in.
 
@@ -87,7 +87,7 @@ This is the Sonic Pi application interface; it has three windows. The largest on
   
     The value entered after the word `sleep` represents time in seconds. Using the value 1 represents one second. What would you type for half a second?
 
-9.	Now write a sequence of `play` and `sleep` to make a cool sounding tune!
+9.	Now write a sequence of `play` and `sleep` to make a cool-sounding tune!
 
 ## Step 2: Frère Jacques
 
