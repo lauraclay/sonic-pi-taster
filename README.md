@@ -1,4 +1,4 @@
-# Creating Music with Sonic Pi
+# Creating music with Sonic Pi
 
 We are going to make some funky songs on the Raspberry Pi. A Raspberry Pi is a small computer that we can use to create exciting technology. It was created in the UK by the Raspberry Pi Foundation to help young people like you learn how to code.
 
@@ -6,7 +6,7 @@ This small computer features amazing HD (high-definition) quality video and play
 
 To get going with your Raspberry Pi, you will need to connect cables and add an SD card before logging in.
 
-## Step 0: Setting Up your Pi
+## Step 0: Setting up your Pi
 
 First check that you have all the parts you need to get your Raspberry Pi set up and working:
 
@@ -19,7 +19,7 @@ First check that you have all the parts you need to get your Raspberry Pi set up
 - A monitor or TV
 - Some headphones 
 
-### Activity Checklist:
+### Activity checklist:
 
 1.	Place the SD card into the slot of your Raspberry Pi. It will only fit one way so be careful not to break the card. 
 
@@ -42,7 +42,7 @@ First check that you have all the parts you need to get your Raspberry Pi set up
 
 ![](Screen-Shot-2012-12-24-at-10.59.55-1024x722.png "Connecting your Raspberry Pi")
 
-## Step 1: First Sounds with Sonic Pi
+## Step 1: First sounds with Sonic Pi
 
 Let’s play some sounds. 
 
@@ -51,7 +51,7 @@ Let’s play some sounds.
 This is the Sonic Pi application interface; it has three windows. The largest one is for writing your code, and we call it the Programming Panel. The top right hand window is the Output Panel, and it displays information about your program as it runs. Underneath is the third window; this is the ‘Error Panel’, which displays information if there is a problem or a bug with your program.
 
 
-### Activity Checklist:
+### Activity checklist:
 
 1.	Launch Sonic Pi by clicking on the Main Menu, then Education, and then Sonic Pi.
 2.	Select Workspace 1.
@@ -99,13 +99,13 @@ We are going to code 'Frère Jacques'. The song begins with:
 
 `C D E C` or `60 62 64 60` in MIDI notes.
 
-### Music Notes to MIDI Note Values
+### Music notes to MIDI note values
 
 | C       | D      | E     | F     | G     | A     | B     |
 | :-----: |:------:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 60      | 62     | 64    | 65    | 67    | 69    | 71    |
 
-### Activity Checklist:
+### Activity checklist:
 
 1.	Select Workspace 2.
 
@@ -170,7 +170,7 @@ We are going to code 'Frère Jacques'. The song begins with:
 
 2. Create your own tune using the things that you have learned so far.
 
-## Step 3: Change the Sounds
+## Step 3: Change the sounds
 
 It's time to make your tune sound more interesting! We can do this by changing the synthesizer sounds it is using. The default Sonic Pi synth is called `"pretty_bell"`. 
 
@@ -198,7 +198,7 @@ end
 "fm"
 ```
 
-### Activity Checklist:
+### Activity checklist:
 
 1.	At the top of your code, above the `2.times do`, add the following:
 
@@ -208,7 +208,7 @@ end
 
 3.	Change the synth, using the list of synths to try above, to find one that you like the sound of.
 
-## Step 4: Using Functions 
+## Step 4: Using functions 
 
 Currently, your Sonic Pi version of 'Frère Jacques' is playing in a set key. It always plays the same notes from the same octave. To give your program the ability to use a different set of notes we can use a function. 
 
@@ -229,7 +229,7 @@ end
 
 You can then call the function to play by typing `frere`. However, this does not solve our problem of the song not using a different key. Let's solve this problem now!
 
-### Activity Checklist:
+### Activity checklist:
 
 1. 	Open a new workspace in which to store your code.
 
@@ -253,11 +253,11 @@ You can then call the function to play by typing `frere`. However, this does not
 
 	You will hear the tune play in a different key each time. 
 
-## Step 5: Playing Two Tunes at the Same Time
+## Step 5: Playing two tunes at the same time
 
 Music often has a repeating backing track, with a separate melody played over the top. So far in Sonic Pi you have played one tune. Let’s try playing two tunes at the same time!
 
-### Activity Checklist:
+### Activity checklist:
 
 1.	Click on a new workspace tab.
 
